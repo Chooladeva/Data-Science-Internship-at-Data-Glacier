@@ -17,5 +17,5 @@ Score for this quiz: 4 out of 4
 
 Submitted Feb 6 at 2:18am
 
-This attempt took 5 minutes.
+This attempt took 5 minutes
 
