@@ -5,10 +5,13 @@
 
 
 ### Dataset: The full data set contains 18396 rows of data with 21 attributes. Notes on Specific Variables are given below. 
-	Rooms: Number of rooms
-	Price: Price in dollars
-	Suburb: The residential area on the outskirts of a city or large town.
-	Method:
+- Rooms: Number of rooms
+
+- Price: Price in dollars
+
+- Suburb: The residential area on the outskirts of a city or large town.
+
+- Method:
 •	S - property sold;
 •	SP - property sold prior;
 •	PI - property passed in;
