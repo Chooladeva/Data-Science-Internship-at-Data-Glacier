@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel= "stylesheet" href="{{ url_for('static', filename='styles/styling.css') }}" />
+    </head>
+    <body>
+        <!---Initialize structure of Title and house picture--->
+        <div class = "title">
+            <h1>House Price Predictor</h1>
+        </div>
+        
+        <!---Containerize main page for styling--->
+        <div class = "page">
+            <!---Containerize paragraph and form for styling--->
+            <div class = "container">
+                <div class = "intro">
+                    <b>
+                        <p class = "Note"><b>Note: Enter values which are reasonable to the context</b></p>
+                    </b>
+                </div>
+                <br>
+                <!---Initialize form structure and inputs, set method to "POST"--->
+                <form action = "{{url_for('predict')}}" method = "post" class = "info">
+                    <input type="text" id="Rooms" name="rooms" placeholder="Total Number of Rooms" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Bedrooms" name="bedroom" placeholder="Number of Bedrooms" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Bathrooms" name="bathroom" placeholder="Number of Bathrooms" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Car" name="car" placeholder="Number of Carspots" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Land_size" name="labdsize" placeholder="Land Size" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Building_Area" name="buildingarea" placeholder="Building Size" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Lattitude" name="lattitude" placeholder="Lattitude of the Location" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <input type="text" id="Longtitude" name="longtitude" placeholder="Longtitude of the Location" required="required"/><span style="color:red"> * </span>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn">Predict</button>
+                </form>
+                <br> 
+                <!---Set placeholder for prediction output--->
+                <div class ="pred">
+                    <p class = "result"><b>{{ prediction_text }}</b></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+              
+              
