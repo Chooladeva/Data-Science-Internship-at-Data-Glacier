@@ -12,9 +12,12 @@
 - Suburb: The residential area on the outskirts of a city or large town.
 
 - Method:
-•	S - property sold;
-•	SP - property sold prior;
-•	PI - property passed in;
+
+         S - property sold;
+         
+         SP - property sold prior;
+         
+         PI - property passed in;
 •	PN - sold prior not disclosed;
 •	SN - sold not disclosed;
 •	NB - no bid;
