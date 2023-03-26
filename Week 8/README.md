@@ -1,9 +1,15 @@
-Problem description
+## Week 7: Deliverables
 
-Data understanding
+Submit a pdf document which should contain following details:
 
-What type of data you have got for analysis
+- Team member's details : Group Name (give a name to your group), Name, Email, Country, College/Company, Specialization ( Data Science, NLP, Data Analyst)
 
-What are the problems in the data ( number of NA values, outliers , skewed etc)
+- Problem description
 
-What approaches you are trying to apply on your data set to overcome problems like NA value, outlier etc and why?
+- Data understanding
+
+- What type of data you have got for analysis
+
+- What are the problems in the data ( number of NA values, outliers , skewed etc)
+
+- What approaches you are trying to apply on your data set to overcome problems like NA value, outlier etc and why?
