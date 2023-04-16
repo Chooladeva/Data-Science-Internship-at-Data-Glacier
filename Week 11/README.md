@@ -1,4 +1,4 @@
-## Week 11: EDA Presentation and Proposed Modeling Technique
+## Week 11: Deliverables
 
 Team member's details : Group Name (give a name to your group), Name, Email, Country, College/Company, Specialization ( Data Science, NLP, Data Analyst)
 
